@@ -1,30 +1,42 @@
 const employees = [{
-    name:"Ahmed",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+    name:"Therion",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/f/f9/Th%C3%A9rion.png/revision/latest?cb=20180718235626&path-prefix=fr",
     scores:["5","1","4","4","5","1","2","5","4","1"]
 },
 {
-    name:"Jacob Deming",
-    photo:"https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+    name:"Cyrus Albright",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/9/90/Cyrus_Albright.png/revision/latest?cb=20180719095429&path-prefix=fr",
     scores:["4","2","5","1","3","2","2","1","3","2"]
 },
 {
-    name:"Jeremiah Scanlon",
-    photo:"https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+    name:"Tressa Colozone",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/6/6e/Tressa_thumb.png/revision/latest?cb=20180311215334",
     scores:["5","2","2","2","4","1","3","2","5","5"]
 },
 {
-    name:"Louis T. Delia",
-    photo:"https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+    name:"Olberic Eisenburg",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/1/1f/Olberic_thumb.png/revision/latest?cb=20180311215118",
     scores:["3","3","4","2","2","1","3","2","2","3"]
 },
 {
-    name:"Lou Ritter",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+    name:"Ophilia Clement",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/7/74/Ophilia_thumb.png/revision/latest?cb=20180515205811",
     scores:["4","3","4","1","5","2","5","3","1","4"]
 },
 {
-    name:"Jordan Biason",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+    name:"H'aanit",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/9/9c/Haanit_thumb.png/revision/latest?cb=20180417085348",
+    scores:["4","3","4","1","1","2","5","4","2","4"]
+},
+{
+    name:"Alfyn Greengrass",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/7/73/Alfyn_thumb.png/revision/latest?cb=20180311215655",
+    scores:["4","3","3","1","5","1","4","3","1","3"]
+},
+{
+    name:"Primrose Azelhart",
+    photo:"https://vignette.wikia.nocookie.net/octopath-traveler/images/9/90/Primrose_thumb.png/revision/latest?cb=20180311215441",
     scores:["4","4","2","3","2","2","3","2","4","5"]
 }]
+
+module.exports = employees;
