@@ -1,7 +1,7 @@
 {
   "name": "employeeFinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helps you find your employee match",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
