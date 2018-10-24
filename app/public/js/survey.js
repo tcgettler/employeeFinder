@@ -29,6 +29,7 @@ $(function(){
 
     const renderMatch = function(match){
         $('#matchResults').modal('toggle');
+        $('.modal-header').html('<h5 class="modal-title" id="exampleModalCenterTitle">Best Match</h5>');
         $('.modal-body').html(`<h4 class="text-center">${match.name}</h4><br><img src=${match.photo} class="col-12"/>`);
     };
 
@@ -40,6 +41,12 @@ $(function(){
     }
         
     $('#submit').click(function(){
-        runSurveyQuery();
+        if($('#name').val().trim() && $('#photo').val().trim()){
+          runSurveyQuery();
+        } else {
+            $('#matchResults').modal('toggle');
+            $('.modal-header').html('<h5 class="modal-title" id="exampleModalCenterTitle">Error</h5>');
+            $('.modal-body').html('<h5>Make sure to enter a name a link to a photo!</h5>');
+        };
     });
 });

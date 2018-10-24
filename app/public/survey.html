@@ -32,11 +32,17 @@
 
             <h3><strong>About You</strong></h3>
             <label for="name">Name (Required)</label>
-            <input type="text" id="name" class="form-control" required>
+            <input type="text" id="name" class="form-control" value="" required>
+            <div class="invalid-feedback" id="namefb">
+                Please enter your name.
+            </div>
 
             <label for="photo">Link to Photo Image (Required)</label>
-            <input type="text" id="photo" class="form-control" required>
-
+            <input type="text" id="photo" class="form-control" value="" required>
+            <div class="invalid-feedback" id="photofb">
+                Please link a photo of yourself.
+            </div>
+               
             <hr>
 
             <label for="questionOne">1) You frequently make your decisions based on your feelings on the subject.</label>
