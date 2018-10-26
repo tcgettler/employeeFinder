@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
+    <!-- Modal to display match -->
     <div class="modal fade" id="matchResults" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -29,7 +30,7 @@
         <form class="col-sm-8 col-lg-10 form">
             <h2 class="text-center">Survey Questions</h2>
             <hr>
-
+            <!-- Name and image input fields -->
             <h3><strong>About You</strong></h3>
             <label for="name">Name (Required)</label>
             <input type="text" id="name" class="form-control" value="" required>
@@ -44,7 +45,7 @@
             </div>
                
             <hr>
-
+            <!-- Question 1 with radio options -->
             <label for="questionOne">1) You frequently make your decisions based on your feelings on the subject.</label>
             <div class="form-group-row" id="questionOne">
                 <span class="disagree">Strongly Disagree</span>
@@ -71,6 +72,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 2 with radio options -->
             <label for="questionTwo">2) You find it easy to stay relaxed and focused even when there is some pressure.</label>
             <div class="form-group-row" id="questionTwo">
                 <span class="disagree">Strongly Disagree</span>
@@ -97,6 +99,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 3 with radio options -->
             <label for="questionThree">3) People frequently upset you.</label>
             <div class="form-group-row" id="questionThree">
                 <span class="disagree">Strongly Disagree</span>
@@ -123,6 +126,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 4 with radio options -->
             <label for="questionFour">4) You find it's better to be honest than to spare someone's feelings.</label>
             <div class="form-group-row" id="questionFour">
                 <span class="disagree">Strongly Disagree</span>
@@ -149,6 +153,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 5 with radio options -->
             <label for="questionFive">5) You find you're better at completing your work alone than on a team.</label>
             <div class="form-group-row" id="questionFive">
                 <span class="disagree">Strongly Disagree</span>
@@ -175,6 +180,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 6 with radio options -->
             <label for="questionSix">6) You feel more energetic after spending time with a group of people.</label>
             <div class="form-group-row" id="questionSix">
                 <span class="disagree">Strongly Disagree</span>
@@ -201,6 +207,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 7 with radio options -->
             <label for="questionSeven">7) You feel it's always best to follow your manager's directions.</label>
             <div class="form-group-row" id="questionSeven">
                 <span class="disagree">Strongly Disagree</span>
@@ -227,6 +234,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 8 with radio options -->
             <label for="questionEight">8) It's easy for you to lose your temper.</label>
             <div class="form-group-row" id="questionEight">
                 <span class="disagree">Strongly Disagree</span>
@@ -253,6 +261,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 9 with radio options -->
             <label for="questionNine">9) It's not a big deal to take smaller office supplies like pens and paperclips.</label>
             <div class="form-group-row" id="questionNine">
                 <span class="disagree">Strongly Disagree</span>
@@ -279,6 +288,7 @@
                 <span>Strongly Agree</span>
             </div>
 
+            <!-- Question 10 with radio options -->
             <label for="questionTen">10) You find that people come to you to solve their problems.</label>
             <div class="form-group-row" id="questionTen">
                 <span class="disagree">Strongly Disagree</span>
@@ -309,6 +319,7 @@
         <br>
         <br>
         
+        <!-- submit button -->
         <div id='error'></div>
         <!-- Submit Button -->
         <button type="submit" class="btn btn-primary btn-lg btn-block col-lg-10" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
